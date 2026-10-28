@@ -1,0 +1,24 @@
+{
+  "id": "AVT-CR_2_20261028-213411",
+  "model": "AVT-CR",
+  "frame": 2,
+  "max_rounds": 3,
+  "started": "2026-10-28 21:34",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: matte black motocross helmet with a large peak, open eye-port for goggles, no visor, long pronounced chin bar. The shell color must match image 2 exactly. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the eye-port and the face opening is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio product photo. A matte black motocross helmet with a large peak, open eye-port for goggles, no visor, long pronounced chin bar, floats in mid-air, strict front view, perfectly centered horizontally, slightly below the vertical center, filling about 72% of the frame width. A soft oval contact shadow lies on the floor below it. Seamless blue-grey backdrop with a darker top and a lighter floor. Soft frontal key light, even, symmetrical.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed peak, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur, visor, goggles, visible rear inner wall of the helmet, visible back lining\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-CR_2_n1.jpg",
+      "size": "1536x2752",
+      "generation_id": "8c303b0b-a39d-41bf-a072-d254aff31258",
+      "page_url": "https://lexygpt.com/generation/8c303b0b-a39d-41bf-a072-d254aff31258",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:36:48"
+    }
+  ]
+}

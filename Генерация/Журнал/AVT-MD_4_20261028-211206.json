@@ -1,0 +1,24 @@
+{
+  "id": "AVT-MD_4_20261028-211206",
+  "model": "AVT-MD",
+  "frame": 4,
+  "max_rounds": 3,
+  "started": "2026-10-28 21:12",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2, and recolor only the backdrop. Keep everything else pixel-identical to image 1: camera angle, lens, framing, hands, worn black leather jacket, helmet position and scale, lighting direction and softness. The new helmet: matte dark titanium-grey modular flip-up motorcycle helmet, chin bar closed, visible hinge seam of the chin bar on the side, clear visor closed. The shell color must match image 2 exactly. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the visor is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. Two adult male hands in a worn black leather jacket hold a matte dark titanium-grey modular flip-up motorcycle helmet, chin bar closed, visible hinge seam of the chin bar on the side, clear visor closed, from both sides at the cheeks, strict front view, face opening toward the camera, helmet centered horizontally. Forearms enter from the bottom-left and bottom-right corners. Seamless low-saturation cool grey backdrop with only a slight blue tint, exactly the same tone as image 3: about RGB 85,88,95 at the top-left corner and about RGB 130,137,147 at the middle of the left edge, darker at the top, lighter toward the lower center. Not teal, not cyan, not saturated blue, no purple or violet tint. Image 3 is only a color reference for the backdrop, do not copy its helmet. Soft key light from above.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, purple background, violet tint, teal background, saturated blue background, vignette change, lens flare, motion blur, visible rear inner wall of the helmet, visible back lining through the visor\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-MD_4_r1.jpg",
+      "size": "1536x2752",
+      "generation_id": "37581c8d-20b8-4dc3-91e1-f688cbb5ee87",
+      "page_url": "https://lexygpt.com/generation/37581c8d-20b8-4dc3-91e1-f688cbb5ee87",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:24:57"
+    }
+  ]
+}

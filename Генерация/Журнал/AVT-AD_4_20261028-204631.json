@@ -1,0 +1,44 @@
+{
+  "id": "AVT-AD_4_20261028-204631",
+  "model": "AVT-AD",
+  "frame": 4,
+  "max_rounds": 3,
+  "started": "2026-10-28 20:46",
+  "status": "готово",
+  "status_text": "годен с круга 2",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2, and recolor only the backdrop. Keep everything else pixel-identical to image 1: camera angle, lens, framing, hands, worn black leather jacket, helmet position and scale, lighting direction and softness. The new helmet: dark matte olive-green dual-sport adventure helmet with a peak above a clear visor, visor closed. The shell color must match image 2 exactly: dark matte olive-green, like a green army helmet, not beige, not sand, not tan. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the visor is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. Two adult male hands in a worn black leather jacket hold a dark matte olive-green dual-sport adventure helmet with a peak above a clear visor, visor closed, from both sides at the cheeks, strict front view, face opening toward the camera, helmet centered horizontally. Forearms enter from the bottom-left and bottom-right corners. Seamless cool blue-grey backdrop, the same tone as image 3: darker at the top, lighter toward the lower center, no purple or violet tint. Image 3 is only a color reference for the backdrop, do not copy its helmet. Soft key light from above.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, purple background, violet tint, vignette change, lens flare, motion blur, beige shell, sand-colored shell, tan shell, visible rear inner wall of the helmet, visible back lining through the visor\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-AD_4_r3.jpg",
+      "size": "1536x2752",
+      "generation_id": "85b4ab8c-d067-416b-bf80-70e47591eaad",
+      "page_url": "https://lexygpt.com/generation/85b4ab8c-d067-416b-bf80-70e47591eaad",
+      "tokens": 8,
+      "verdict": "fail",
+      "defects": [
+        {
+          "category": "фон",
+          "point": 7,
+          "what": "фон синее и насыщеннее кадра 2: угол RGB 50,67,82 (норма 85,88,95), середина левого края 129,146,166 (норма 130,137,147), вне допуска ±12",
+          "fix": "задать фон числами: low-saturation cool grey with only a slight blue tint, about RGB 85,88,95 at the top-left corner and about 130,137,147 at the middle of the left edge, not teal, not cyan"
+        }
+      ],
+      "time": "21:07:19"
+    },
+    {
+      "n": 2,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2, and recolor only the backdrop. Keep everything else pixel-identical to image 1: camera angle, lens, framing, hands, worn black leather jacket, helmet position and scale, lighting direction and softness. The new helmet: dark matte olive-green dual-sport adventure helmet with a peak above a clear visor, visor closed. The shell color must match image 2 exactly: dark matte olive-green, like a green army helmet, not beige, not sand, not tan. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the visor is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. Two adult male hands in a worn black leather jacket hold a dark matte olive-green dual-sport adventure helmet with a peak above a clear visor, visor closed, from both sides at the cheeks, strict front view, face opening toward the camera, helmet centered horizontally. Forearms enter from the bottom-left and bottom-right corners. Seamless low-saturation cool grey backdrop with only a slight blue tint, exactly the same tone as image 3: about RGB 85,88,95 at the top-left corner and about RGB 130,137,147 at the middle of the left edge, darker at the top, lighter toward the lower center. Not teal, not cyan, not saturated blue, no purple or violet tint. Image 3 is only a color reference for the backdrop, do not copy its helmet. Soft key light from above.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, purple background, violet tint, teal background, saturated blue background, vignette change, lens flare, motion blur, beige shell, sand-colored shell, tan shell, visible rear inner wall of the helmet, visible back lining through the visor\n",
+      "change": "фон: вместо «blue-grey» заданы числа RGB 85,88,95 / 130,137,147 и запрет teal/cyan/saturated blue; в ответ на замечание «фон, пункт 7». Отклонение G середины левого края на 2 единицы сверх допуска принято пользователем",
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-AD_4_r4.jpg",
+      "size": "1536x2752",
+      "generation_id": "ba7af685-b488-4b87-a1ee-bacc7649c24c",
+      "page_url": "https://lexygpt.com/generation/ba7af685-b488-4b87-a1ee-bacc7649c24c",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:12:06"
+    }
+  ]
+}

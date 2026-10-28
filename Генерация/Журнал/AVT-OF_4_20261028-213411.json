@@ -1,0 +1,24 @@
+{
+  "id": "AVT-OF_4_20261028-213411",
+  "model": "AVT-OF",
+  "frame": 4,
+  "max_rounds": 3,
+  "started": "2026-10-28 21:34",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "OF_4 новый прогон, круг 1: промпт кадра 4 из Генерация фото.md; шлем: matte black open-face 3/4 jet helmet with only a short small drop-down inner visor inside the face opening, exactly like image 2; фон: точная копия фона изображения 3 (готовый кадр 4 модели FF), без виньетки; образец фона: https://static.lexygpt.com/ugc/64d523ec-5093-4cab-a1a5-1a5eeae34d3f.png\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-OF_4_n1.jpg",
+      "size": "1536x2752",
+      "generation_id": "4602fce5-647f-4fc1-9c6a-ee96c8c02a23",
+      "page_url": "https://lexygpt.com/generation/4602fce5-647f-4fc1-9c6a-ee96c8c02a23",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:36:48"
+    }
+  ]
+}

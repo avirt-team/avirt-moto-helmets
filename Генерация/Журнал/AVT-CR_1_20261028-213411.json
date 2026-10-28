@@ -1,0 +1,24 @@
+{
+  "id": "AVT-CR_1_20261028-213411",
+  "model": "AVT-CR",
+  "frame": 1,
+  "max_rounds": 3,
+  "started": "2026-10-28 21:34",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: matte black motocross helmet with a large peak, open eye-port for goggles, no visor, long pronounced chin bar. The shell color must match image 2 exactly. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the eye-port and the face opening is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. A matte black motocross helmet with a large peak, open eye-port for goggles, no visor, long pronounced chin bar, rests on the black leather seat of a motorcycle with thin burgundy piping. Three-quarter view, chin facing left, the front of the helmet toward the left side of the frame. The helmet sits slightly above the vertical center and fills about 78% of the frame width. The seat fills the bottom third of the frame. Seamless cool grey backdrop, darker at the top, lighter behind the helmet. Soft key light from the upper left, gentle rim light on the right edge.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed peak, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur, visor, goggles, visible rear inner wall of the helmet, visible back lining\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-CR_1_n1.jpg",
+      "size": "1536x2752",
+      "generation_id": "fb2df515-57f0-4150-8884-6a9cd52b0baf",
+      "page_url": "https://lexygpt.com/generation/fb2df515-57f0-4150-8884-6a9cd52b0baf",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:36:48"
+    }
+  ]
+}

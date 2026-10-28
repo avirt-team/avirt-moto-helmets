@@ -1,0 +1,24 @@
+{
+  "id": "AVT-MD_1_20261028-211206",
+  "model": "AVT-MD",
+  "frame": 1,
+  "max_rounds": 3,
+  "started": "2026-10-28 21:12",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: matte dark titanium-grey modular flip-up motorcycle helmet, chin bar closed, visible hinge seam of the chin bar on the side, clear visor closed. The shell color must match image 2 exactly. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the visor and the face opening is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. A matte dark titanium-grey modular flip-up motorcycle helmet, chin bar closed, visible hinge seam of the chin bar on the side, clear visor closed, rests on the black leather seat of a motorcycle with thin burgundy piping. Three-quarter view, chin facing left, visor toward the left side of the frame. The helmet sits slightly above the vertical center and fills about 78% of the frame width. The seat fills the bottom third of the frame. Seamless cool grey backdrop, darker at the top, lighter behind the helmet. Soft key light from the upper left, gentle rim light on the right edge.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur, visible rear inner wall of the helmet, visible back lining through the visor\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-MD_1_r1.jpg",
+      "size": "1536x2752",
+      "generation_id": "e436caaf-6ae4-4490-bf47-2c7ee67cf957",
+      "page_url": "https://lexygpt.com/generation/e436caaf-6ae4-4490-bf47-2c7ee67cf957",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:24:57"
+    }
+  ]
+}

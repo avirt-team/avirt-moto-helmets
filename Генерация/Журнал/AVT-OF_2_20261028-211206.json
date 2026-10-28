@@ -1,0 +1,24 @@
+{
+  "id": "AVT-OF_2_20261028-211206",
+  "model": "AVT-OF",
+  "frame": 2,
+  "max_rounds": 3,
+  "started": "2026-10-28 21:12",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: matte black open-face 3/4 jet helmet, short clear visor, face area open, no chin bar. The shell color must match image 2 exactly. Matte shell, no logos, no text, no stickers, no graphics. The inside of the helmet seen through the visor and the face opening is in deep shadow, dark and nearly black; the rear inner wall and the back lining of the helmet are not visible. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio product photo. A matte black open-face 3/4 jet helmet, short clear visor, face area open, no chin bar, floats in mid-air, strict front view, perfectly centered horizontally, slightly below the vertical center, filling about 72% of the frame width. A soft oval contact shadow lies on the floor below it. Seamless blue-grey backdrop with a darker top and a lighter floor. Soft frontal key light, even, symmetrical.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur, chin bar, visible rear inner wall of the helmet, visible back lining through the visor\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-OF_2_r1.jpg",
+      "size": "1536x2752",
+      "generation_id": "f007efac-82af-41d5-a4bc-cbad228ad20c",
+      "page_url": "https://lexygpt.com/generation/f007efac-82af-41d5-a4bc-cbad228ad20c",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "21:24:57"
+    }
+  ]
+}

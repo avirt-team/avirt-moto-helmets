@@ -1,0 +1,44 @@
+{
+  "id": "AVT-AD_4_20261028-201719",
+  "model": "AVT-AD",
+  "frame": 4,
+  "max_rounds": 3,
+  "started": "2026-10-28 20:17",
+  "status": "готово",
+  "status_text": "годен с круга 2",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: matte olive-khaki dual-sport adventure helmet with a peak above a clear visor, visor closed. Matte shell, no logos, no text, no stickers, no graphics. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. Two adult male hands in a worn black leather jacket hold a matte olive-khaki dual-sport adventure helmet with a peak above a clear visor, visor closed, from both sides at the cheeks, strict front view, face opening toward the camera, helmet centered horizontally. Forearms enter from the bottom-left and bottom-right corners. Seamless neutral grey backdrop, dark at the top, lighter toward the lower center. Soft key light from above.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-AD_4_r1.png",
+      "size": "1536x2752",
+      "generation_id": "14e99e0b-4051-4b7d-9d6b-61db99c0c801",
+      "page_url": "https://lexygpt.com/generation/14e99e0b-4051-4b7d-9d6b-61db99c0c801",
+      "tokens": 8,
+      "verdict": "fail",
+      "defects": [
+        {
+          "category": "цвет",
+          "point": 3,
+          "what": "скорлупа песочно-бежевая (RGB купола 156,146,128, красный больше зелёного), на фото товара и на кадрах 1 и 2 тёмная оливково-зелёная",
+          "fix": "явно задать цвет: dark matte olive-green exactly like image 2, not beige, not sand, not tan, same hue as a green army helmet"
+        }
+      ],
+      "time": "20:37:58"
+    },
+    {
+      "n": 2,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: dark matte olive-green dual-sport adventure helmet with a peak above a clear visor, visor closed. The shell color must match image 2 exactly: dark matte olive-green, like a green army helmet, not beige, not sand, not tan. Matte shell, no logos, no text, no stickers, no graphics. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio photo. Two adult male hands in a worn black leather jacket hold a dark matte olive-green dual-sport adventure helmet with a peak above a clear visor, visor closed, from both sides at the cheeks, strict front view, face opening toward the camera, helmet centered horizontally. Forearms enter from the bottom-left and bottom-right corners. Seamless neutral grey backdrop, dark at the top, lighter toward the lower center. Soft key light from above.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur, beige shell, sand-colored shell, tan shell\n",
+      "change": "цвет: вместо olive-khaki явно dark matte olive-green exactly like image 2, not beige/sand/tan, плюс beige/sand/tan в негативном списке; в ответ на замечание «цвет, пункт 3»",
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-AD_4_r2.png",
+      "size": "1536x2752",
+      "generation_id": "d2d0f40f-a269-4ba8-bd03-79f81fba4cd6",
+      "page_url": "https://lexygpt.com/generation/d2d0f40f-a269-4ba8-bd03-79f81fba4cd6",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "20:38:58"
+    }
+  ]
+}

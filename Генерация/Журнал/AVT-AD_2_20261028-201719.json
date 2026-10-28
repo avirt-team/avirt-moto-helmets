@@ -1,0 +1,24 @@
+{
+  "id": "AVT-AD_2_20261028-201719",
+  "model": "AVT-AD",
+  "frame": 2,
+  "max_rounds": 3,
+  "started": "2026-10-28 20:17",
+  "status": "готово",
+  "status_text": "годен с круга 1",
+  "rounds": [
+    {
+      "n": 1,
+      "prompt": "Replace only the helmet in image 1 with the helmet from image 2. Keep everything else pixel-identical to image 1: camera angle, lens, framing, helmet position and scale, background gradient, lighting direction and softness, shadows, reflections. The new helmet: matte olive-khaki dual-sport adventure helmet with a peak above a clear visor, visor closed. Matte shell, no logos, no text, no stickers, no graphics. Photorealistic studio photo, vertical 9:16, 1536x2752.\n\nStudio product photo. A matte olive-khaki dual-sport adventure helmet with a peak above a clear visor, visor closed, floats in mid-air, strict front view, perfectly centered horizontally, slightly below the vertical center, filling about 72% of the frame width. A soft oval contact shadow lies on the floor below it. Seamless blue-grey backdrop with a darker top and a lighter floor. Soft frontal key light, even, symmetrical.\n\nAvoid: text, letters, logo, brand name, sticker, watermark, decals, glossy paint, second helmet, cropped helmet, deformed visor, asymmetric shell, extra fingers, distorted hands, colored background, vignette change, lens flare, motion blur\n",
+      "change": null,
+      "file": "Генерация\\Кадры\\_кандидаты\\AVT-AD_2_r1.png",
+      "size": "1536x2752",
+      "generation_id": "e3f6c78f-4a1e-491b-86a5-220f542f5685",
+      "page_url": "https://lexygpt.com/generation/e3f6c78f-4a1e-491b-86a5-220f542f5685",
+      "tokens": 8,
+      "verdict": "ok",
+      "defects": [],
+      "time": "20:37:58"
+    }
+  ]
+}
